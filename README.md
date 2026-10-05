@@ -2,6 +2,8 @@
 
 [![tests](https://github.com/Edward-Owusu/mfa-compliance-tracker/actions/workflows/tests.yml/badge.svg)](https://github.com/Edward-Owusu/mfa-compliance-tracker/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23171910.svg)](https://doi.org/10.5281/zenodo.23171910)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mfa-compliance-tracker.streamlit.app)
 
 An open-source tool that tracks an organization's **multi-factor authentication rollout over time**. It shows whether MFA coverage is on pace to meet its target, which departments and people are falling behind, whether anyone's MFA has been removed or weakened, and **where sign-ins still bypass MFA** through legacy protocols and policy gaps.
 
@@ -65,6 +67,8 @@ Open the HTML file in the `reports` folder for the full report. Pre-generated re
 pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 ```
+
+Try the hosted version at https://mfa-compliance-tracker.streamlit.app, or run it locally:
 
 ### Use in automation
 
