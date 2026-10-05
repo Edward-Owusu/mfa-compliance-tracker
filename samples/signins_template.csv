@@ -1,0 +1,3 @@
+username,application,client_app,auth_requirement,status,count
+jdoe,Microsoft 365,Browser,multifactor,success,120
+jdoe,Exchange Online,IMAP4,single_factor,success,15

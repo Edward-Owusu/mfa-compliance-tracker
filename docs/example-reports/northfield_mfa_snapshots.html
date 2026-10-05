@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MFA rollout report: Northfield Cold Logistics (fictional)</title>
+<style>
+:root{--ink:#1f2933;--muted:#52606d;--line:#d9e2ec;--paper:#fff;--wash:#f7f5f0;--accent:#0f766e;
+--crit:#b42318;--med:#b45309;--low:#52606d;--ok:#0f766e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--wash);color:var(--ink);
+font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+main{max-width:980px;margin:0 auto;padding:40px 24px 64px;background:var(--paper);border-top:6px solid var(--accent)}
+h1,h2,h3{font-family:Charter,"Bitstream Charter","Iowan Old Style",Georgia,serif;line-height:1.25}
+h1{font-size:30px;margin:0 0 6px}
+h2{font-size:21px;margin:44px 0 12px;padding-bottom:6px;border-bottom:2px solid var(--accent)}
+h3{font-size:16px;margin:0 0 6px}
+.meta{color:var(--muted);margin:0}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-top:28px;border:1px solid var(--line)}
+.summary div{padding:16px 18px;border-right:1px solid var(--line)}
+.summary div:last-child{border-right:0}
+.figure{font-family:Charter,Georgia,serif;font-size:34px;font-weight:700;display:block}
+.label{color:var(--muted);font-size:13px}
+.legend{display:flex;flex-wrap:wrap;gap:18px;font-size:13px;color:var(--muted);margin:8px 0 0}
+.legend span::before{content:"";display:inline-block;width:18px;height:3px;margin-right:6px;vertical-align:middle;background:var(--c)}
+.finding{border-left:4px solid var(--crit);padding:12px 16px;margin:14px 0;background:var(--wash)}
+.finding.medium{border-left-color:var(--med)}.finding.low{border-left-color:var(--low)}
+.finding p{margin:4px 0}.finding ul{margin:6px 0 6px 18px;padding:0}
+.sev{display:inline-block;font-size:12px;font-weight:700;padding:1px 8px;border-radius:3px;color:#fff;background:var(--crit);margin-right:6px}
+.sev.medium{background:var(--med)}.sev.low{background:var(--low)}
+.table-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted)}
+.s-On-track,.s-Achieved{color:var(--ok);font-weight:600}
+.s-Off-track{color:var(--crit);font-weight:600}
+.s-Insufficient-data{color:var(--muted)}
+.disclaimer{margin-top:40px;color:var(--muted);font-size:13px}
+@media print{body{background:#fff}main{padding:0}}
+</style></head>
+<body><main>
+<h1>MFA rollout report: Northfield Cold Logistics (fictional)</h1>
+<p class="meta">6 monthly snapshots, Apr 2026 to Sep 2026. Generated 2026-10-05 17:58 UTC by mfa_tracker 0.1.0.</p>
+<section class="summary" aria-label="Summary">
+<div><span class="figure">100%</span><span class="label">MFA coverage (from 84%)</span></div>
+<div><span class="figure">100%</span><span class="label">Admins with phishing-resistant MFA</span></div>
+<div><span class="figure">47%</span><span class="label">Phishing-resistant, all accounts</span></div>
+<div><span class="figure">0%</span><span class="label">Successful sign-ins without MFA</span></div>
+</section>
+<h2>Progress toward targets</h2>
+<div class="table-wrap"><table><thead><tr><th>Measure</th><th>Now</th><th>Target</th><th>Status</th><th>Outlook</th></tr></thead><tbody><tr><td>MFA coverage, all accounts</td><td>100%</td><td>100% by 2026-12-31</td><td class="s-Achieved">Achieved</td><td>The target has been reached.</td></tr><tr><td>Phishing-resistant MFA, administrators</td><td>100%</td><td>100% by 2026-12-31</td><td class="s-Achieved">Achieved</td><td>The target has been reached.</td></tr></tbody></table></div>
+<h2>Coverage over time</h2>
+<svg viewBox="0 0 640 260" role="img" aria-label="MFA coverage trend" style="width:100%;height:auto;font:12px sans-serif"><line x1="44" x2="624" y1="224.0" y2="224.0" stroke="#E2E8F0"/><text x="36" y="228.0" text-anchor="end" fill="#52606D">0%</text><line x1="44" x2="624" y1="172.0" y2="172.0" stroke="#E2E8F0"/><text x="36" y="176.0" text-anchor="end" fill="#52606D">25%</text><line x1="44" x2="624" y1="120.0" y2="120.0" stroke="#E2E8F0"/><text x="36" y="124.0" text-anchor="end" fill="#52606D">50%</text><line x1="44" x2="624" y1="68.0" y2="68.0" stroke="#E2E8F0"/><text x="36" y="72.0" text-anchor="end" fill="#52606D">75%</text><line x1="44" x2="624" y1="16.0" y2="16.0" stroke="#E2E8F0"/><text x="36" y="20.0" text-anchor="end" fill="#52606D">100%</text><line x1="44" x2="624" y1="16.0" y2="16.0" stroke="#9AA5B1" stroke-dasharray="2 4" stroke-width="2"/><text x="44.0" y="248" text-anchor="middle" fill="#52606D">Apr</text><text x="160.0" y="248" text-anchor="middle" fill="#52606D">May</text><text x="276.0" y="248" text-anchor="middle" fill="#52606D">Jun</text><text x="392.0" y="248" text-anchor="middle" fill="#52606D">Jul</text><text x="508.0" y="248" text-anchor="middle" fill="#52606D">Aug</text><text x="624.0" y="248" text-anchor="middle" fill="#52606D">Sep</text><polyline points="44.0,48.9 160.0,27.0 276.0,16.0 392.0,16.0 508.0,16.0 624.0,16.0" fill="none" stroke="#0F766E" stroke-width="3"/><circle cx="44.0" cy="48.9" r="3.5" fill="#0F766E"/><circle cx="160.0" cy="27.0" r="3.5" fill="#0F766E"/><circle cx="276.0" cy="16.0" r="3.5" fill="#0F766E"/><circle cx="392.0" cy="16.0" r="3.5" fill="#0F766E"/><circle cx="508.0" cy="16.0" r="3.5" fill="#0F766E"/><circle cx="624.0" cy="16.0" r="3.5" fill="#0F766E"/><polyline points="44.0,169.3 160.0,158.3 276.0,147.5 392.0,136.4 508.0,125.4 624.0,125.4" fill="none" stroke="#B45309" stroke-width="3"/><circle cx="44.0" cy="169.3" r="3.5" fill="#B45309"/><circle cx="160.0" cy="158.3" r="3.5" fill="#B45309"/><circle cx="276.0" cy="147.5" r="3.5" fill="#B45309"/><circle cx="392.0" cy="136.4" r="3.5" fill="#B45309"/><circle cx="508.0" cy="125.4" r="3.5" fill="#B45309"/><circle cx="624.0" cy="125.4" r="3.5" fill="#B45309"/><polyline points="44.0,16.0 160.0,16.0 276.0,16.0 392.0,16.0 508.0,16.0 624.0,16.0" fill="none" stroke="#475569" stroke-width="3" stroke-dasharray="6 4"/><circle cx="44.0" cy="16.0" r="3.5" fill="#475569"/><circle cx="160.0" cy="16.0" r="3.5" fill="#475569"/><circle cx="276.0" cy="16.0" r="3.5" fill="#475569"/><circle cx="392.0" cy="16.0" r="3.5" fill="#475569"/><circle cx="508.0" cy="16.0" r="3.5" fill="#475569"/><circle cx="624.0" cy="16.0" r="3.5" fill="#475569"/></svg>
+<div class="legend"><span style="--c:#0F766E">MFA coverage</span><span style="--c:#B45309">Phishing-resistant, all accounts</span><span style="--c:#475569">Phishing-resistant, administrators (dashed)</span><span style="--c:#9AA5B1">Target</span></div>
+<h2>Where MFA is bypassed</h2><p>0 of 3180 successful sign-ins (0%) completed without MFA, including 0 through legacy protocols that cannot perform MFA at all.</p>
+<h2>Departments</h2>
+<div class="table-wrap"><table><thead><tr><th>Department</th><th>Accounts</th><th>MFA</th><th>Phishing-resistant</th><th>Change since first snapshot</th><th>Without MFA</th></tr></thead><tbody><tr><td>Dispatch</td><td>3</td><td>100%</td><td>33%</td><td>+33 pts</td><td>0</td></tr><tr><td>External</td><td>1</td><td>100%</td><td>100%</td><td>+0 pts</td><td>0</td></tr><tr><td>Finance</td><td>2</td><td>100%</td><td>100%</td><td>+50 pts</td><td>0</td></tr><tr><td>HR</td><td>1</td><td>100%</td><td>0%</td><td>+0 pts</td><td>0</td></tr><tr><td>IT</td><td>4</td><td>100%</td><td>100%</td><td>+0 pts</td><td>0</td></tr><tr><td>Maintenance</td><td>1</td><td>100%</td><td>0%</td><td>+0 pts</td><td>0</td></tr><tr><td>Quality</td><td>1</td><td>100%</td><td>100%</td><td>+0 pts</td><td>0</td></tr><tr><td>Sales</td><td>2</td><td>100%</td><td>0%</td><td>+0 pts</td><td>0</td></tr><tr><td>Warehouse</td><td>4</td><td>100%</td><td>0%</td><td>+25 pts</td><td>0</td></tr></tbody></table></div>
+<h2>Method strength</h2>
+<div class="table-wrap"><table><thead><tr><th>Strength</th><th>Accounts</th><th>Share</th><th>Methods in use</th></tr></thead><tbody><tr><td>None</td><td>0</td><td>0%</td><td></td></tr><tr><td>Weak (SMS or voice)</td><td>1</td><td>5%</td><td>sms</td></tr><tr><td>Standard (app or code)</td><td>9</td><td>47%</td><td>app_push, totp</td></tr><tr><td>Phishing-resistant</td><td>9</td><td>47%</td><td>certificate, fido2, windows_hello</td></tr></tbody></table></div>
+<h2>Findings by priority</h2>
+<div class="finding low"><h3><span class="sev low">Low</span>MFA-06: User relies on SMS or voice MFA</h3><p><strong>Controls:</strong> IA-2(2), IA-5</p><ul><li>r.osei: Sales: uses sms.</li></ul><p><strong>Remediation:</strong> Move the user to an authenticator app or a phishing-resistant method; SMS and voice codes can be intercepted or redirected.</p></div>
+<p class="disclaimer">This report is generated by an automated monitoring aid from the data supplied. Projections assume the recent enrollment pace continues and are estimates, not commitments. It does not replace a formal assessment or the judgment of a qualified auditor.</p>
+</main></body></html>

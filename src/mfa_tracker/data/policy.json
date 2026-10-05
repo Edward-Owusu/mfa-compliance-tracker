@@ -1,0 +1,18 @@
+{
+  "_comment": "Organization-defined targets and parameters. Copy, adjust, and pass with --policy.",
+  "coverage_target_pct": 100,
+  "admin_phishing_resistant_target_pct": 100,
+  "target_date": "2026-12-31",
+  "persistent_snapshots": 3,
+  "methods": {
+    "none": 0,
+    "sms": 1, "voice": 1,
+    "app_push": 2, "totp": 2, "hardware_otp": 2,
+    "fido2": 3, "passkey": 3, "certificate": 3, "windows_hello": 3
+  },
+  "legacy_client_apps": [
+    "exchange activesync", "imap4", "pop3", "authenticated smtp", "mapi over http",
+    "outlook anywhere (rpc over http)", "exchange web services", "offline address book",
+    "other clients"
+  ]
+}

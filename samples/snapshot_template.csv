@@ -1,0 +1,3 @@
+snapshot_date,username,department,account_type,enabled,mfa_method
+2026-09-30,jdoe,Finance,user,true,app_push
+2026-09-30,adm-jdoe,IT,admin,true,fido2

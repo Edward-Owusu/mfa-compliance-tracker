@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "description": "MFA program checks mapped to NIST SP 800-53 Rev. 5 controls.",
+  "rules": [
+    {"id": "MFA-01", "title": "Administrator without MFA", "severity": "critical", "controls": ["IA-2(1)"],
+     "remediation": "Enroll the administrator in phishing-resistant MFA now and block privileged sign-in until it is in place."},
+    {"id": "MFA-02", "title": "User without MFA", "severity": "high", "controls": ["IA-2(2)"],
+     "remediation": "Enroll the user in MFA and require registration at next sign-in."},
+    {"id": "MFA-03", "title": "User still not enrolled after several monthly checks", "severity": "high", "controls": ["IA-2(2)"],
+     "remediation": "Contact the user and their manager directly; persistent non-enrollment usually means a missing phone, shared device, or unclear instructions."},
+    {"id": "MFA-04", "title": "MFA removed or weakened since the previous snapshot", "severity": "high", "controls": ["IA-2", "IA-5"],
+     "remediation": "Confirm the change was authorized. Unexpected removal or downgrade of MFA can indicate account takeover or a help desk process gap."},
+    {"id": "MFA-05", "title": "Administrator without phishing-resistant MFA", "severity": "medium", "controls": ["IA-2(1)"],
+     "remediation": "Issue FIDO2 security keys or certificate-based authentication to administrators and retire their phishable methods."},
+    {"id": "MFA-06", "title": "User relies on SMS or voice MFA", "severity": "low", "controls": ["IA-2(2)", "IA-5"],
+     "remediation": "Move the user to an authenticator app or a phishing-resistant method; SMS and voice codes can be intercepted or redirected."},
+    {"id": "MFA-07", "title": "Successful sign-ins through legacy protocols that bypass MFA", "severity": "high", "controls": ["CM-7", "IA-2"],
+     "remediation": "Block legacy authentication protocols (such as IMAP, POP3, and basic-auth SMTP) and move the affected users and devices to modern authentication."},
+    {"id": "MFA-08", "title": "Successful single-factor sign-ins through modern clients", "severity": "medium", "controls": ["IA-2"],
+     "remediation": "Extend MFA policies to cover these applications; single-factor modern sign-ins usually mean a policy exclusion or gap."},
+    {"id": "MFA-09", "title": "MFA coverage target not on track", "severity": "medium", "controls": ["PM-6"],
+     "remediation": "Increase the enrollment pace or revise the target date; at the current rate the target will be missed."},
+    {"id": "MFA-10", "title": "Administrator phishing-resistant MFA target not on track", "severity": "medium", "controls": ["PM-6"],
+     "remediation": "Prioritize security keys for administrators; this target is small in count and fast to close."}
+  ]
+}

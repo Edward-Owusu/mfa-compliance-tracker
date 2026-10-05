@@ -1,0 +1,21 @@
+username,application,client_app,auth_requirement,status,count
+adm-lchen,Microsoft 365,Browser,multifactor,success,120
+adm-kadeyemi,Microsoft 365,Browser,multifactor,success,120
+l.chen,Microsoft 365,Browser,multifactor,success,120
+k.adeyemi,Microsoft 365,Browser,multifactor,success,120
+p.ward,Microsoft 365,Browser,multifactor,success,120
+b.silva,Microsoft 365,Browser,multifactor,success,120
+j.baker,Microsoft 365,Browser,multifactor,success,120
+d.romero,Microsoft 365,Browser,multifactor,success,120
+c.foster,Microsoft 365,Browser,multifactor,success,120
+g.hughes,Microsoft 365,Browser,multifactor,success,120
+t.nguyen,Microsoft 365,Browser,multifactor,success,120
+m.duarte,Microsoft 365,Browser,multifactor,success,120
+h.kim,Microsoft 365,Browser,multifactor,success,120
+s.patel,Microsoft 365,Browser,multifactor,success,120
+e.mensah,Microsoft 365,Browser,multifactor,success,120
+n.ali,Microsoft 365,Browser,multifactor,success,120
+r.osei,Microsoft 365,Browser,multifactor,success,120
+a.boateng,Microsoft 365,Browser,multifactor,success,120
+wms.vendor,Microsoft 365,Browser,multifactor,success,120
+svc-wms,WMS API,Mobile Apps and Desktop clients,multifactor,success,900

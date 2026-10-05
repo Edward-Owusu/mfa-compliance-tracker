@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "mfa_tracker: MFA Rollout Tracking and Bypass Detection for Small and Mid-Sized Organizations"
+authors:
+  - family-names: Owusu
+    given-names: Edward
+version: 0.1.0
+date-released: 2026-10-05
+license: MIT
+repository-code: "https://github.com/Edward-Owusu/mfa-compliance-tracker"
+keywords:
+  - multi-factor authentication
+  - phishing-resistant MFA
+  - zero trust
+  - NIST SP 800-53
+  - legacy authentication
+  - small business
+  - critical infrastructure

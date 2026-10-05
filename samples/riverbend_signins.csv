@@ -1,0 +1,18 @@
+username,application,client_app,auth_requirement,status,count
+a.nguyen,Microsoft 365,Browser,multifactor,success,140
+m.garcia,Microsoft 365,Browser,multifactor,success,140
+k.lee,Microsoft 365,Browser,multifactor,success,140
+d.young,Microsoft 365,Browser,multifactor,success,140
+l.chen,Microsoft 365,Browser,multifactor,success,140
+i.lowe,Microsoft 365,Browser,multifactor,success,140
+j.ruiz,Microsoft 365,Browser,multifactor,success,140
+u.page,Microsoft 365,Browser,multifactor,success,140
+b.kerr,Microsoft 365,Browser,multifactor,success,140
+t.brooks,Exchange Online,IMAP4,single_factor,success,120
+r.patel,Exchange Online,IMAP4,single_factor,success,64
+m.garcia,Exchange Online,Exchange ActiveSync,single_factor,success,45
+svc-scanner,Exchange Online,Authenticated SMTP,single_factor,success,300
+g.ward,ERP Portal,Browser,single_factor,success,38
+x.hunt,ERP Portal,Browser,single_factor,success,22
+q.moss,ERP Portal,Browser,single_factor,success,17
+t.brooks,Exchange Online,POP3,single_factor,failure,400
