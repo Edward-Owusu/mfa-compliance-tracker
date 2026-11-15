@@ -82,7 +82,7 @@ mfa-tracker snapshots.csv --signins signins.csv --fail-on high
 
 1. Each month, download your identity provider's MFA registration report and append it to a snapshot file. The [data reference](docs/data-reference.md) explains the columns and where to find them.
 2. Optionally, summarize a month of sign-in logs to see where MFA is bypassed.
-3. Set your targets and target date in a policy file or in the dashboard sidebar.
+3. Set your targets and target date in a policy file or under **Set targets** at the top of the dashboard.
 4. Review the report with department managers and the help desk each month.
 
 ## Related projects
