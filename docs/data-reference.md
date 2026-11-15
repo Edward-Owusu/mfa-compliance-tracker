@@ -45,6 +45,6 @@ Client apps listed in the policy's `legacy_client_apps` are treated as legacy pr
 
 ## Targets and parameters
 
-Defaults are in `src/mfa_tracker/data/policy.json`: 100% coverage and 100% phishing-resistant MFA for administrators by the target date, and three consecutive snapshots before a user counts as a persistent non-enroller. Override any value with a JSON file passed to `--policy`, or adjust targets in the dashboard sidebar.
+Defaults are in `src/mfa_tracker/data/policy.json`: 100% coverage and 100% phishing-resistant MFA for administrators by the target date, and three consecutive snapshots before a user counts as a persistent non-enroller. Override any value with a JSON file passed to `--policy`, or adjust targets under Set targets at the top of the dashboard.
 
 Sign-in and registration exports identify users and their weaknesses. Store them and the reports securely, and verify report names and fields against your provider's current documentation.
